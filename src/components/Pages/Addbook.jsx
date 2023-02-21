@@ -43,6 +43,7 @@ const Addbook =() => {
       console.log(res.data)
     },alert("The Book has been added to your List")
     )
+    navigate("/books")
   }
 
 

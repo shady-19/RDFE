@@ -64,11 +64,11 @@ const Libreg = () => {
 
                 <h2 className="fw-bold mb-2 text-uppercase">Register</h2>
 
-                <MDBInput wrapperClass='mb-4'
+                <MDBInput wrapperClass='mb-4 bg-light'
                  onChange={(event) => { setName(event.target.value) }} 
                 label='Name' id='form1' type='text' />
-                <MDBInput wrapperClass='mb-4' onChange={(event) => { setEmail(event.target.value) }} label='Email' id='form1' type='email' />
-                <MDBInput wrapperClass='mb-4' onChange={(event) => { setPassword(event.target.value) }} label='Password' id='form1' type='password' />
+                <MDBInput wrapperClass='mb-4 bg-light' onChange={(event) => { setEmail(event.target.value) }} label='Email' id='form1' type='email' />
+                <MDBInput wrapperClass='mb-4 bg-light' onChange={(event) => { setPassword(event.target.value) }} label='Password' id='form1' type='password' />
 
 
 
